@@ -5,22 +5,16 @@ pipeline {
     triggers {
         pollSCM('* * * * *')
     }
-    stages {
-        
+    stages { 
         stage('Clean'){
            steps{
-               sh 'dotnet clean  --configuration Release'
+               sh 'dotnet clean '
             }
          }
-         stage("Get dir size") {
-            script {
-                DIR_SIZE = sh(returnStdout: true, script: 'ls -la /var | grep jenkins_home | cut -d " " -f5')
-            }
-            echo "dir size = ${DIR_SIZE}"
-            }
+         
         stage('Build'){
            steps{
-               sh 'dotnet build --configuration Release --no-restore'
+               sh 'dotnet build '
             }
          }
         stage('Test: Unit Test'){
