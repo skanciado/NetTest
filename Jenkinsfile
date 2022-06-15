@@ -10,7 +10,7 @@ pipeline {
            steps{
                sh 'dotnet restore '
             }
-         }
+         } 
         stage('Clean'){
            steps{
                sh 'dotnet clean  --configuration Release'
