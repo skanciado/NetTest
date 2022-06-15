@@ -6,16 +6,18 @@ pipeline {
         pollSCM('* * * * *')
     }
     stages {
-        stage('Restore packages'){
-           steps{
-               sh 'dotnet restore '
-            }
-         } 
+        
         stage('Clean'){
            steps{
                sh 'dotnet clean  --configuration Release'
             }
          }
+         stage("Get dir size") {
+            script {
+                DIR_SIZE = sh(returnStdout: true, script: 'ls -la /var | grep jenkins_home | cut -d " " -f5')
+            }
+            echo "dir size = ${DIR_SIZE}"
+            }
         stage('Build'){
            steps{
                sh 'dotnet build --configuration Release --no-restore'
