@@ -27,7 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/NfQt63hSBFdGe9YUo6eDOjrPJkHfRfZhCqIoFe5CM5aGj5olAB/api": {},
+          "https://nuget.devexpress.com/4a2J5fXLEc2fAcHb4v5Em9EKDVZfRCidbhFdAVrRHSggBZCUvP/api/fail": {},
           "https://nuget.pkg.github.com/portdebarcelona/index.json": {}
         },
         "frameworks": {
