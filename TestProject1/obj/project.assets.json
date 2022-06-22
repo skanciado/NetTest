@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.CodeCoverage/16.5.0": {
         "type": "package",
         "compile": {
@@ -4616,7 +4616,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1"
@@ -4644,7 +4644,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -4653,8 +4653,8 @@
         "https://nuget.pkg.github.com/portdebarcelona/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -4665,8 +4665,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
