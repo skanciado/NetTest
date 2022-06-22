@@ -1,5 +1,4 @@
-// Importar libreria de .NET
-library('NetLibrary')
+library('Others')
 // Lanzar la pipeline
 // DeployApp(appKey, sourcePath =".", testPath=".", emailList [])
-DeployApp("odp-app", "WebApplication1", "TestProject1", "skanciado@gmail.com")
+DeployApp("DOTNET","odp-app", "src/APB.APP.ODP", "src/APB.APP.ODP","1.0.0", "daniel.horta-vidal@t-systems.com") 
