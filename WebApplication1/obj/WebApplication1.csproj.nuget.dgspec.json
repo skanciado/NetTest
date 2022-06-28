@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skanc\\source\\repos\\NetTest\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\A200095983\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skanc\\source\\repos\\NetTest\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\A200095983\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skanc\\source\\repos\\NetTest\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\A200095983\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\skanc\\source\\repos\\NetTest\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\skanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skanc\\source\\repos\\NetTest\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\A200095983\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\A200095983\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A200095983\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A200095983\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/4a2J5fXLEc2fAcHb4v5Em9EKDVZfRCidbhFdAVrRHSggBZCUvP/api/fail": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
